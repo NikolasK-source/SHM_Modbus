@@ -100,6 +100,19 @@ modules:
         commit: d107673fd9afe9d364490db73508ec563f9a4e9c 
         url: https://github.com/NikolasK-source/stdin_to_modbus_shm.git
 
+  - name: shm-stack-machine
+    buildsystem: cmake-ninja
+    config-opts:
+      - -DCMAKE_BUILD_TYPE=Release
+      - -DCLANG_FORMAT=OFF
+      - -DCOMPILER_WARNINGS=OFF
+      - -DBUILD_DOC=OFF
+    sources:
+      - type: git
+        tag: v0.0.1
+        commit: 2202c55f478e7fa7274271994549c2e370465e4a 
+        url: https://github.com/NikolasK-source/shm_stack_machine.git
+
 
   - name: metadata
     buildsystem: simple
