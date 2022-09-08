@@ -112,7 +112,19 @@ modules:
         tag: v0.0.1
         commit: 2202c55f478e7fa7274271994549c2e370465e4a 
         url: https://github.com/NikolasK-source/shm_stack_machine.git
-
+  
+  - name: modbus-shm-to-stdout
+    buildsystem: cmake-ninja
+    config-opts:
+      - -DCMAKE_BUILD_TYPE=Release
+      - -DCLANG_FORMAT=OFF
+      - -DCOMPILER_WARNINGS=OFF
+      - -DBUILD_DOC=OFF
+    sources:
+      - type: git
+        tag: v0.0.1
+        commit: e14b12e69eab92bb8a73d5fdf725168082b4f904 
+        url: https://github.com/NikolasK-source/modbus_shm_to_stdout.git
 
   - name: metadata
     buildsystem: simple
