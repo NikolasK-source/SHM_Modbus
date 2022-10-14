@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION="1.1.0-beta1"
+VERSION="1.1.0-beta2"
 
 SLEEP_TIME=2
 

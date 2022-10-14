@@ -31,8 +31,8 @@ modules:
 
     sources:
       - type: git
-        tag: v1.2.3
-        commit: 5a1d7f6a85fb00b109c04f22a9bdf2e3b4da7ba6 
+        tag: v1.3.0-beta1
+        commit: 3340f2de55e2d79a7698dbbace4fa0feafe9238e 
         url: https://github.com/NikolasK-source/modbus_tcp_client_shm.git
 
   - name: Modbus_RTU_client_shm
