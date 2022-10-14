@@ -70,8 +70,8 @@ modules:
 
     sources:
       - type: git
-        tag: v1.0.5
-        commit: 95c72b58cc2fc73447c7abae07622af1219b7f08 
+        tag: v1.1.0
+        commit: c14decab141650555fdaef43269fb202afd9be2d 
         url: https://github.com/NikolasK-source/shared_mem_random.git
 
   - name: dump_shm
@@ -83,8 +83,8 @@ modules:
 
     sources:
       - type: git
-        tag: v1.0.2
-        commit: b39922ac9dbb3b37a73ffc0eed3c56582d0c50e9 
+        tag: v1.1.0
+        commit: 3461093c6b35672ba5d5cc90f8cc2527ce3d9471 
         url: https://github.com/NikolasK-source/dump_shm.git
 
   - name: stdin-to-modbus-shm

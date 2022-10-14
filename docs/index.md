@@ -17,12 +17,22 @@ It contains the following tools:
 In addition, a start script is included, which also provides a guided mode.
 
 ## Install
+
+## Flapak
 The application is available as flatpak and published on flathub as ```network.koesling.shm-modbus```.
 
 The installation can be done with the following command: 
 ```
 flatpak install network.koesling.shm-modbus
 ```
+
+### Using the Arch User Repository (recommended for Arch based Linux distributions)
+The application is available as [shm-modbus](https://aur.archlinux.org/packages/shm-modbus) in the [Arch User Repository](https://aur.archlinux.org/).
+See the [Arch Wiki](https://wiki.archlinux.org/title/Arch_User_Repository) for information about how to install AUR packages.
+
+Unlike the flatpak variant, no ```.desktop``` file is included in the AUR package.
+It is therefore a terminal only application.
+
 
 ### Launch scripts
 Since the execution of the individual tools via the flatpak is uncomfortable due to the long names, launch scripts are available.
